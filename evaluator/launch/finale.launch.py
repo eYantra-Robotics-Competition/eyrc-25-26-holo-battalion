@@ -7,8 +7,8 @@ from launch.actions import ExecuteProcess
 def generate_launch_description():
     script = os.path.join(
         get_package_share_directory('evaluator'),
-        'task6b',
-        'task6b.py'
+        'finale',
+        'finale.py'
     )
 
     task6b = ExecuteProcess(

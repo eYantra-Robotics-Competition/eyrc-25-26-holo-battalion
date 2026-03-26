@@ -25,12 +25,7 @@ endif()
 
 install(
   DIRECTORY
-    task4a
-    task4b
-    task5a
-    task5b
-    task6a
-    task6b
+    finale
     launch
   DESTINATION
     share/${PROJECT_NAME}/
